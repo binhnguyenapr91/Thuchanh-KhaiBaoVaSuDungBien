@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<button onclick="bai1()">Hien thi bai tap 1</button>
+<button onclick="bai2()">Hien thi bai tap 2</button>
+<button onclick="bai3()">Hien thi bai tap 3</button>
+
+<script>
+    function bai1(){
+        let songuyen = 10;
+        let sothuc = 20.5;
+        let logic = true;
+        let chuoi = "Ha Noi";
+
+        document.write("So nguyen: "+ songuyen);
+        document.write("<br>");
+        document.write("So thuc: "+ sothuc);
+        document.write("<br>");
+        document.write("Logic: "+ logic);
+        document.write("<br>");
+        document.write("Chuoi: "+ chuoi);
+    }
+
+    function bai2() {
+        let chieurong = 2;
+        let chieucao = 4;
+        let dientich;
+        dientich = chieurong * chieucao;
+        alert("Dien tich hinh chu nhat = " + dientich);
+    }
+
+    function bai3() {
+
+        let num1;
+        let num2;
+
+        num1 = prompt("Nhap vao A")
+        num2 = prompt("Nhap vao B")
+
+        let sur;
+        sur = num1 % num2;
+
+        if (sur == 0 ){
+            alert("A chia het cho B!")
+        }else alert("A khong chia het cho B!")
+
+    }
+
+
+</script>
+</body>
+</html>
